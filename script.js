@@ -6,6 +6,7 @@ $(document).ready(function() {
     
     $('#get_engcv').click(function(e) {
         e.preventDefault();  //stop the browser from following          
-        window.location.href = 'upload/THIDA_HTAY_CV.pdf';      
+        // window.location.href = 'upload/THIDA_HTAY_CV.pdf';  
+        window.open('upload/THIDA_HTAY_CV.pdf', '_blank');    
     });  
 });
